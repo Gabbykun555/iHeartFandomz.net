@@ -1,0 +1,338 @@
+
+
+/* ANIMATIONS */
+
+@keyframes fadeIn {
+    from {
+        margin: 0;
+        width: 0px;
+        height: 0px;
+        opacity: 0.1;
+        -moz-opacity: 0.1;
+        -webkit-opacity: 0.1;
+        -o-opacity: 0.1;
+    }
+    
+    to {
+        width: 125px;
+        opacity: 0.3;
+        -moz-opacity: 0.3;
+        -webkit-opacity: 0.3;
+        -o-opacity: 0.3;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    from {
+        margin: 0;
+        width: 0px;
+        height: 0px;
+        opacity: 0.1;
+        -moz-opacity: 0.1;
+        -webkit-opacity: 0.1;
+        -o-opacity: 0.1;
+    }
+    
+    to {
+        width: 125px;
+        opacity: 0.3;
+        -moz-opacity: 0.3;
+        -webkit-opacity: 0.3;
+        -o-opacity: 0.3;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        margin: 0;
+        width: 0px;
+        height: 0px;
+        opacity: 0.1;
+        -moz-opacity: 0.1;
+        -webkit-opacity: 0.1;
+        -o-opacity: 0.1;
+    }
+    
+    to {
+        width: 125px;
+        opacity: 0.3;
+        -moz-opacity: 0.3;
+        -webkit-opacity: 0.3;
+        -o-opacity: 0.3;
+    }
+}
+
+@-o-keyframes fadeIn {
+    from {
+        margin: 0;
+        width: 0px;
+        height: 0px;
+        opacity: 0.1;
+        -moz-opacity: 0.1;
+        -webkit-opacity: 0.1;
+        -o-opacity: 0.1;
+    }
+    
+    to {
+        width: 125px;
+        opacity: 0.3;
+        -moz-opacity: 0.3;
+        -webkit-opacity: 0.3;
+        -o-opacity: 0.3;
+    }
+}
+
+
+
+
+/* STYLING */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  background-image: url('https://images.pexels.com/photos/46248/owl-hunt-nature-hunter-46248.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:center;
+  overflow-x: hidden;
+}
+
+#ihf-logo {
+  width: 5%; 
+ /* bottom: 16px;
+  left: 60px; */
+  position: relative;
+  bottom: 20%;
+  margin: 0 4%;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+}
+
+ul {
+  padding-right: 20px;
+  float: right;  
+}
+
+ul li {
+  font-family: "Questrial";
+  display: inline;
+  color: white;
+  padding: 11px 35px; 
+  font-size: 1.2em; 
+}
+
+ul li:hover {
+  color: gray;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.active {
+  border-bottom: solid 4px white;
+}
+
+.active:hover {
+  color: white;
+}
+
+
+#heading {
+  color: white;
+  position: relative;
+  top: 180px;
+  text-align: center;
+}
+
+#subscribe {
+  position: relative;
+  top: 320px;
+}
+
+#email-field {
+  width: 250px;
+  margin: 0 5px;
+}
+
+#footnote {
+  color: skyblue;
+  margin: 12px 0;
+  font-family: "Questrial";
+}
+
+#new {
+  color: lime;
+  font-weight: bold;
+}
+
+#overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba( 125, 60, 152, 0.6);
+}
+
+#btn {
+  font-family: "Questrial";
+  color: purple;
+  padding: 0 5px;
+}
+
+h1 {
+  font-family: Raleway;
+  font-size: 3.8em;
+  font-weight: bold;
+  letter-spacing: 10px;
+    
+}
+
+h3 {
+  font-family: Questrial;
+}
+
+.copyright {
+  text-align: center;
+  position: relative;
+}
+
+#cp {
+  color: gainsboro;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  opacity: 0.5;
+  letter-spacing: 1px;
+}
+
+.thumbnails {
+  margin: 0 30px;
+  height: 125px;
+  width: 125px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 0 20px; 
+  opacity: 0.3;
+  display: inline-block;
+  animation: 3s fadeIn ease-in; 
+}
+
+#all-thumbnails {
+    position: relative;
+    top: 350px;
+    text-align: center;
+}
+
+.aatc {
+  float: left;
+}
+
+.fma {
+  float: right;
+}
+
+#alvinnn {
+  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/21/ab/90/21ab908a66d0bd7155347963857d7034.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: 2s fadeIn; 
+}
+
+#aatc {
+  background-image: url('https://imgs.tuts.dragoart.com/how-to-draw-alvin-and-the-chipmunks_1_000000000388_5.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  animation: 2s fadeIn ease-in; 
+}
+
+#fma {
+  background-image: url('http://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/edward-elric-fullmetal-alchemist-80.9.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: 3s fadeIn ease-in; 
+}
+
+#fmab {
+  background-image: url('https://static.zerochan.net/Edward.Elric.full.200105.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: 4s fadeIn ease-in; 
+}
+
+.thumbnail-hover {
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    width: 200px;
+    height: 125px;
+    border-radius: 1em;
+}
+
+ {
+  margin: 0;
+    padding: 0;
+    opacity: 1;
+    width: 200px;
+    height: 125px;
+    border-radius: 5%;  
+}
+
+#alvinnn-text {
+  position: relative;
+  right: 375px;  
+  font-size: 1.5em;
+  bottom: 85px;
+  visibility: hidden;
+}
+
+#aatc-text {
+  position: relative;
+  right: 220px;  
+  font-size: 1.5em;
+  bottom: 137px;
+  visibility: hidden;
+}
+
+#fma-text {
+  position: relative;
+  right: 88px;  
+  font-size: 1.5em;
+  bottom: 188px;
+  visibility: hidden;
+}
+
+#fmab-text {
+  position: relative;
+  left: 50px;  
+  font-size: 1.5em;
+  bottom: 240px;
+  visibility: hidden;
+}
+
+.reveal-text {
+  visibility: visible;
+}
+
+
