@@ -192,7 +192,13 @@ a:hover {
 #btn {
   font-family: "Questrial";
   color: purple;
-  padding: 0 5px;
+  background-color: white;
+  padding: 7px 5px;
+  border-radius: 0.2em;
+}
+
+#btn:hover {
+  background-color: gainsboro;
 }
 
 h1 {
