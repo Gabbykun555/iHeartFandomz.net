@@ -96,7 +96,7 @@
 
 body, html {
   width: 100%;
-  height: 100%;
+  height: 120%;
   background-image: url('https://images.pexels.com/photos/46248/owl-hunt-nature-hunter-46248.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');
   background-size: cover;
   background-repeat: no-repeat;
@@ -107,21 +107,23 @@ body, html {
 
 #ihf-logo {
   width: 5%; 
+  margin: 0 2%;
  /* bottom: 16px;
-  left: 60px; */
+  left: 60px; 
   position: relative;
   bottom: 20%;
-  margin: 0 4%;
+  margin: 0 4%; */
 }
 
-.navbar {
+.nav-bar {
   width: 100%;
-  height: 60px;
+  height: 70px;
   background-color: black;
 }
 
 ul {
-  padding-right: 20px;
+  padding: 1.5% 10% 1.5% 0;
+  /*padding-right: 20px;*/
   float: right;  
 }
 
@@ -129,7 +131,8 @@ ul li {
   font-family: "Questrial";
   display: inline;
   color: white;
-  padding: 11px 35px; 
+  padding: 35px; 
+  /*padding: 11px 35px; */
   font-size: 1.2em; 
 }
 
@@ -147,7 +150,7 @@ a:hover {
 }
 
 .active {
-  border-bottom: solid 4px white;
+  /*border-bottom: solid 4px white;*/
 }
 
 .active:hover {
@@ -158,18 +161,19 @@ a:hover {
 #heading {
   color: white;
   position: relative;
-  top: 180px;
-  text-align: center;
+  /*top: 180px; */
+  text-align: center; 
+  padding: 11% 0 8% 0;
 }
 
 #subscribe {
-  position: relative;
-  top: 320px;
+ /* position: relative;
+  top: 320px; */
 }
 
 #email-field {
   width: 250px;
-  margin: 0 5px;
+  margin: 0 5px; 
 }
 
 #footnote {
@@ -202,6 +206,7 @@ a:hover {
 }
 
 h1 {
+  
   font-family: Raleway;
   font-size: 3.8em;
   font-weight: bold;
@@ -242,8 +247,9 @@ h3 {
 }
 
 #all-thumbnails {
-    position: relative;
-    top: 350px;
+   /* position: relative;
+    top: 350px; */
+    padding-top: 3%;
     text-align: center;
 }
 
