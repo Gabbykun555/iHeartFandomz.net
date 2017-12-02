@@ -6,8 +6,7 @@ $(document).ready(function() {
        $(this).removeClass('thumbnail-hover');
     });
     
-    $('ul li').click(function() {
-        $(this).addClass('active');
-        $(this).parents().siblings().children().removeClass('active');
+    $('#navbar li').click(function() {
+        $(this).addClass('active').siblings('li').removeClass('active');
     });
 });

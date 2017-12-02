@@ -7,8 +7,6 @@
   
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
 
-  <link rel="stylesheet" href="style/style.css">
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   
   <link href="https://fonts.googleapis.com/css?family=Montserrat" type="text/css" rel="stylesheet">
@@ -20,22 +18,27 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" type="text/css" rel="stylesheet">
     
   <link href="https://fonts.googleapis.com/css?family=Muli" type="text/css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style/style.css">
 
 </head>
   <body>
-      
+
+ <section id="section1"> 
  <div class="navbar-header">    
     <nav class="nav-bar">   
-      <img src="images/ihf-white.png" id="ihf-logo">
-      <ul>
-        <a href=#><li class="active">Home</li></a>
-        <a href=#><li>Fanart</li></a>
-        <a href=#><li>Videos</li></a>
-        <a href=#><li>Contact</li></a>
+      
+      <ul id="navbar">
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Videos</a></li>
+        <li><a href="#">Fanart</a></li>
+        <li class="active"><a href="#">Home</a></li>
+        
+        <a href=# class=""><img src="images/ihf-white.png" id="ihf-logo"></a>
       </ul>
     </nav>  
 </div> 
-      
+
 <div id="overlay">
   <section>  
       <div id="heading">
@@ -45,7 +48,7 @@
       
       <div class="form-group text-center" id="subscribe">
       <input id="email-field" class="" type="email" placeholder=" Email address..." required>
-      <a href=# id="btn" class="">Subscribe</a>
+      <a href=# id="btn" class="btn btn-primary btn-md" role="button">Subscribe</a>
       <p id="footnote">* Subscribe to receive an email when <span id="new">NEW</span> content is uploaded!</p>
       </div>
 
@@ -71,6 +74,9 @@
       </div>
     </div>
 </div>
+</section>
+    
+
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
     <script src="js/main.js"></script>
