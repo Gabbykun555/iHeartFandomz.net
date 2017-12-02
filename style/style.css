@@ -230,7 +230,7 @@ a:hover {
   position: relative;
   /*top: 180px; */
   text-align: center; 
-  padding: 11% 0 8% 0;
+  padding: 11% 0 8% 0; 
 }
 
 #subscribe {
@@ -274,10 +274,10 @@ a:hover {
 }
 
 h1 {
-  padding-top: 13%;
+  padding-top: 14%;
   text-align: center;
   font-family: Raleway;
-  font-size: 3.9em;
+  font-size: 4em;
   font-weight: bold;
   letter-spacing: 10px;
   color: white; 
@@ -285,8 +285,8 @@ h1 {
 
 h3 {
   font-size: 1.8em;
-  margin-bottom: 12%;
-  text-align: center; 
+  margin-bottom: 10%;
+  text-align: center;
   font-family: Questrial;
   color: white; 
 }
