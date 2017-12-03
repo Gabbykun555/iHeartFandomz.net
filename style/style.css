@@ -106,131 +106,47 @@ body, html {
 }
 
 #ihf-logo {
-  position: relative;
   width: 5%; 
-  margin: 0% 2%;
   float: left;
- /* bottom: 16px;
-  left: 60px; 
-  position: relative;
-  bottom: 20%;
-  margin: 0 4%; */
+  margin: -1% 1%;
 }
 
-/*
-.nav-bar {
-  width: 100%;
-  height: 100%;
-  /*height: 70px;
-  background-color: black;
-}
-*/
-#navbar {
-    position: absolute;
-    width: 100%;
-    height: 70px;
-    margin-right: 0;
-    padding: 0;
-    list-style: none;
-    background: #222;
-    font-family: 'Oswald', sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-}
-
-#navbar li {
-    position: relative;
-    right: 125px;
-    line-height: 70px; 
-    background: inherit;
-    text-align: center;
-    transition: all .2s;
-    float: right;
-}
-
-#navbar li a {
-    position: relative;
-    display: block;
-    padding: 0 30px;
-    line-height: inherit;
-    color: white;
-    text-decoration: none;
-}
-
-#navbar li:before {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 50%;
-    margin-left: -30px;
-    width: 60px;
-    height: 60px;
-    background: #222;
-    border-radius: 50%;
-    transform: rotate(45deg);
-    transition: all 0, background .2s;
-}
-#navbar li:hover:before {
-    margin-top: 1px;
-    border-radius: 50% 50% 0 50%;
-    transition: all .1s, background .2s, margin-top .2s cubic-bezier(.5,30,.2,0);
-}
-#navbar li:hover,
-#navbar li:hover:before {
-    background: #3a3a3a;
-}
-#navbar li.active,
-#navbar li.active:before {
-    background: gray;
-}
-
-/*
-ul {
-  padding: 1.5% 10% 1.5% 0;
-  padding-right: 50px;
-  float: right;  
-  height: 100%;
-}
-
-ul li {
-  font-family: "Questrial";
-  display: inline;
-  color: white;
-  padding: 35px; 
-  padding: 11px 35px; 
-  /*padding: 0 35px;
-  font-size: 1.2em; 
-} 
-
-ul li:hover {
-  color: gray;
-}
-
-
-a {
-  color: white;
-}
-
-a:hover {
-  color: gray;
-  text-decoration: none;
-}
-
-.active {
-  /*border-bottom: solid 4px white;*/
-}
-
-.active:hover {
-  color: white;
-}
-
-*/
 #heading {
   color: white;
   position: relative;
   /*top: 180px; */
   text-align: center; 
-  padding: 11% 0 8% 0; 
+  padding: 6% 0 8% 0; 
+}
+
+ul {
+   text-align: right;
+   padding: 2% 0;
+}
+
+ul li {
+  display: inline;
+  padding: 0 3%;
+  font-size: 1.3em;
+  padding-bottom: 10px;
+}
+
+a {
+  color: white;
+  
+}
+
+a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+.active {
+  border-bottom: solid 3px white;  
+}
+
+.active:hover {
+  color: gray;
 }
 
 #subscribe {
@@ -274,10 +190,10 @@ a:hover {
 }
 
 h1 {
-  padding-top: 14%;
+ /* padding-top: 14%; */
   text-align: center;
   font-family: Raleway;
-  font-size: 4em;
+  font-size: 4.5em;
   font-weight: bold;
   letter-spacing: 10px;
   color: white;
@@ -285,8 +201,8 @@ h1 {
 }
 
 h3 {
-  font-size: 1.8em;
-  margin-bottom: 10%;
+  font-size: 2em;
+  margin-bottom: 1%;
   text-align: center;
   font-family: Questrial;
   color: white;
