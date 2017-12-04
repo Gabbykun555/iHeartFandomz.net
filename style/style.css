@@ -106,7 +106,7 @@ body, html {
 }
 
 #ihf-logo {
-  width: 5%; 
+  width: 70px; 
   float: left;
   margin: -1% 1%;
 }
@@ -129,7 +129,9 @@ ul li {
   padding: 0 3%;
   font-size: 1.3em;
   padding-bottom: 10px;
+    
 }
+
 
 a {
   color: white;
@@ -142,11 +144,15 @@ a:hover {
 }
 
 .active {
-  border-bottom: solid 3px white;  
+  border-bottom: solid 3px white;
 }
 
 .active:hover {
   color: gray;
+}
+
+#input {
+    
 }
 
 #subscribe {
@@ -189,6 +195,7 @@ a:hover {
   background-color: gainsboro;
 }
 
+
 h1 {
  /* padding-top: 14%; */
   text-align: center;
@@ -197,7 +204,7 @@ h1 {
   font-weight: bold;
   letter-spacing: 10px;
   color: white;
-  animation-duration: 5s;
+  animation-duration: 7s;
 }
 
 h3 {
