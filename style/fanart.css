@@ -8,8 +8,10 @@
 
 body{
   font-size:12px;
-  background-color:#f2ede1; 
-  
+  background-color:#f2ede1;
+  background-image: url('https://t7.rbxcdn.com/75a0176a17ec54327b418522497caf3b');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #ihf-logo {
@@ -26,9 +28,8 @@ ul {
 ul li {
   display: inline;
   padding: 0 3%;
-  font-size: 1.3em;
-  padding-bottom: 10px;
-    
+  font-size: 1.7em;
+  padding-bottom: 10px;  
 }
 
 
@@ -39,7 +40,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: gray;
+  color: white;
 }
 
 .active {
@@ -51,13 +52,13 @@ a:hover {
 }
 
 #alvinnn-heading {
-    font-family: 'Katibeh', cursive;
+    font-family: 'Passion One';
     font-size:4.25em;
-    color: #6a757a;
+    color: white;
     line-height:40px;
     font-weight:normal;
     margin:0;
-    padding:0 0 30px 0;
+    padding:0 0 40px 0;
   }
 
 #container {
@@ -199,5 +200,24 @@ span.cssbox_full {
 }
 
 #fma-heading {
+  color: white;
   margin: 100px 0 30px 0;
 }
+
+#border {
+  color: white;  
+}
+
+
+
+#thumbnail1, #thumbnail3, #thumbnail5,  #thumbnail9, #thumbnail11 {
+    animation-duration: 2s;
+}
+
+ #thumbnail4, #thumbnail6, #thumbnail8, #thumbnail10 {
+    animation-duration: 4s;
+}
+
+#thumbnail2, #thumbnail7 {
+    animation-duration: 5s;
+}  
