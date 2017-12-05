@@ -201,6 +201,7 @@ span.cssbox_full {
 
 #fma-heading {
   color: white;
+  font-family: "Passion One";
   margin: 100px 0 30px 0;
 }
 
@@ -211,13 +212,13 @@ span.cssbox_full {
 
 
 #thumbnail1, #thumbnail3, #thumbnail5,  #thumbnail9, #thumbnail11 {
-    animation-duration: 2s;
+    animation-duration: 1s;
 }
 
  #thumbnail4, #thumbnail6, #thumbnail8, #thumbnail10 {
-    animation-duration: 4s;
+    animation-duration: 3s;
 }
 
 #thumbnail2, #thumbnail7 {
-    animation-duration: 5s;
+    animation-duration: 4s;
 }  
