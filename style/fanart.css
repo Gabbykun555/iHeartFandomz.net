@@ -1,70 +1,203 @@
+@import 'https://fonts.googleapis.com/css?family=Katibeh';
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size:12px;
+  background-color:#f2ede1; 
+  
+}
+
 #ihf-logo {
-  position: relative;
-  width: 5%; 
-  margin: 0% 2%;
+  width: 70px; 
   float: left;
- /* bottom: 16px;
-  left: 60px; 
+  margin: -1% 1%;
+}
+
+ul {
+   text-align: right;
+   padding: 2% 0;
+}
+
+ul li {
+  display: inline;
+  padding: 0 3%;
+  font-size: 1.3em;
+  padding-bottom: 10px;
+    
+}
+
+
+a {
+  color: white;
+  
+}
+
+a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+.active {
+  border-bottom: solid 3px white;
+}
+
+.active:hover {
+  color: gray;
+}
+
+#alvinnn-heading {
+    font-family: 'Katibeh', cursive;
+    font-size:4.25em;
+    color: #6a757a;
+    line-height:40px;
+    font-weight:normal;
+    margin:0;
+    padding:0 0 30px 0;
+  }
+
+#container {
+  display:table;
+  text-align: center;
+  margin: 6% 5%;
+}
+
+
+
+#gallery {
   position: relative;
-  bottom: 20%;
-  margin: 0 4%; */
+  z-index:7000;
 }
 
-#navbar {
-    position: absolute;
-    width: 100%;
-    height: 70px;
-    margin-right: 0;
-    padding: 0;
-    list-style: none;
-    background: #222;
-    font-family: 'Oswald', sans-serif;
-    font-size: 18px;
-    font-weight: 300;
+.cssbox {
+  display: inline-block;
+  margin: 10px 10px;
+  
 }
 
-#navbar li {
-    position: relative;
-    right: 125px;
-    line-height: 70px; 
-    background: inherit;
-    text-align: center;
-    transition: all .2s;
-    float: right;
+span.cssbox_full {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255,255,255,0.8);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s linear;
+  z-index:8000;
+  padding-bottom:80px;
 }
 
-#navbar li a {
-    position: relative;
-    display: block;
-    padding: 0 30px;
-    line-height: inherit;
-    color: white;
-    text-decoration: none;
+span.cssbox_full img {
+  position: fixed;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  max-height: 90%;
+  max-width: 70%;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 20px black;
+  border-radius: 0.5em;
 }
 
-#navbar li:before {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 50%;
-    margin-left: -30px;
-    width: 60px;
-    height: 60px;
-    background: #222;
-    border-radius: 50%;
-    transform: rotate(45deg);
-    transition: all 0, background .2s;
+a.cssbox_close,
+a.cssbox_prev,
+a.cssbox_next {
+  position: fixed;
+  text-decoration: none;
+  visibility: hidden;
+  color: white;
+  font-size: 36px;
+  z-index:8000;
+  cursor:pointer;
 }
-#navbar li:hover:before {
-    margin-top: 1px;
-    border-radius: 50% 50% 0 50%;
-    transition: all .1s, background .2s, margin-top .2s cubic-bezier(.5,30,.2,0);
+
+a.cssbox_close {
+  top: 1%;
+  right: 1%;
 }
-#navbar li:hover,
-#navbar li:hover:before {
-    background: #3a3a3a;
+
+a.cssbox_close::after {
+  content: '\00d7';
+ /* line-height:1.125em;*/
+  line-height:1em;
 }
-#navbar li.active,
-#navbar li.active:before {
-    background: gray;
+
+a.cssbox_prev,
+a.cssbox_next {
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+a.cssbox_prev {
+  left: 2%;
+}
+
+a.cssbox_next {
+  right: 2%;
+}
+
+a:target ~ a.cssbox_close,
+a:target ~ a.cssbox_prev,
+a:target ~ a.cssbox_next {
+  visibility: visible;
+}
+
+a:target > img.cssbox_thumb + span.cssbox_full {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: initial;
+}
+
+span.cssbox_full {
+  cursor: initial;
+}
+  
+
+/* This is the end of CSSBox */
+
+.cssbox:not(:first-child) .cssbox_thumb{
+  // display:none;
+}
+
+.cssbox_prev:after{
+  content:"\2039";
+  text-align: center;
+}
+.cssbox_next:after{
+  content:"\203A";
+}
+
+.cssbox_prev:after, .cssbox_next:after, .cssbox_close::after{
+  font-family:arial;
+  font-weight:normal;
+  font-size:28px;
+  line-height:28px;
+    // background-color:#fff;
+  height:30px;
+  width:30px;
+  display:block;
+  font-family:arial;
+  color: #bfbfbf;
+  border:2px solid;
+  border-radius:80px;
+  text-align:center;
+}
+
+.cssbox_next:hover:after, .cssbox_prev:hover:after,.cssbox_close:hover:after{
+  color: #fff;
+  background-color: #bfbfbf;
+  border:2px solid #bfbfbf;
+}
+
+#fma-heading {
+  margin: 100px 0 30px 0;
 }

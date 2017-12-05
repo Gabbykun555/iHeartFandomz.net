@@ -300,15 +300,6 @@ h3 {
     border-radius: 1em;
 }
 
- {
-  margin: 0;
-    padding: 0;
-    opacity: 1;
-    width: 200px;
-    height: 125px;
-    border-radius: 5%;  
-}
-
 #alvinnn-text {
   position: relative;
   right: 375px;  
@@ -350,3 +341,6 @@ h3 {
     height: 100%;
 }
 
+.opaque {
+    opacity: 1;
+}

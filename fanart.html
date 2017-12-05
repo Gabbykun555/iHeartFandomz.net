@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html >
+<html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,31 +7,128 @@
 
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
   
-  <script src="dist/jquery.gridder.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="style/animate.css">
 
   <link rel="stylesheet" href="style/fanart.css">
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  
 </head>
   
-  <body>
-    <div class="navbar-header">    
+<body> 
+
+<div id="overlay">
+ <div>    
     <nav class="nav-bar">   
-      
-      <ul id="navbar">
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Videos</a></li>
-        <li><a href="#">Fanart</a></li>
-        <li class="active"><a href="#">Home</a></li>
+      <ul >
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="fanart.html">Fanart</a></li>
+        <li><a href="videos.html">Videos</a></li>
+        <li><a href="contact.html">Contact</a></li>
         
         <a href=# class=""><img src="images/ihf-white.png" id="ihf-logo"></a>
       </ul>
     </nav>  
+</div> 
+
+<hr>
+
+<div id="container">
+  <h1 id="alvinnn-heading">ALVINNN!!! Gallery</h1>
+<div class="cssbox">
+    <a id="image1" href="#image1"><img class="cssbox_thumb" src="fanart/000.jpg" height="225px">
+      <span class="cssbox_full"><img src="fanart/000.jpg"></span>
+    </a>
+    <a class="cssbox_close" href="#void"></a>
+    <a class="cssbox_next" href="#image2"></a>
 </div>
+
+<div class="cssbox">
+  <a id="image2" href="#image2"><img class="cssbox_thumb" src="fanart/001.png" height="225px">
+   <span class="cssbox_full"><img src="fanart/001.png"></span></a>
+  <a class="cssbox_close" href="#void"></a>
+  <a class="cssbox_next" href="#image3"></a>
+  <a class="cssbox_prev" href="#image1"></a>
+</div>
+
+<div class="cssbox">
+  <a id="image3" href="#image3"><img class="cssbox_thumb" src="fanart/002.jpg" height="225px">
+   <span class="cssbox_full"><img src="fanart/002.jpg"></span></a>
+  <a class="cssbox_close" href="#void"></a>
+  <a class="cssbox_next" href="#image4"></a>
+  <a class="cssbox_prev" href="#image2"></a>
+</div>
+ 
+<div class="cssbox">
+  <a id="image4" href="#image4"><img class="cssbox_thumb" src="fanart/003.jpg" height="225px">
+   <span class="cssbox_full"><img src="fanart/003.jpg"></span></a>
+  <a class="cssbox_close" href="#void"></a>
+  <a class="cssbox_next" href="#image5"></a>
+  <a class="cssbox_prev" href="#image3"></a>
+</div>
+ 
+<div class="cssbox">
+  <a id="image5" href="#image5"><img class="cssbox_thumb" src="fanart/004.png" height="225px">
+   <span class="cssbox_full"><img src="fanart/004.png"></span></a>
+  <a class="cssbox_close" href="#void"></a>
+  <a class="cssbox_next" href="#image6"></a>
+  <a class="cssbox_prev" href="#image4"></a>
+</div>
+ 
+<div class="cssbox">
+  <a id="image6" href="#image6"><img class="cssbox_thumb" src="fanart/005.png" height="225px">
+   <span class="cssbox_full"><img src="fanart/005.png"></span></a>
+  <a class="cssbox_close" href="#void"></a>
+  <a class="cssbox_next" href="#image7"></a>
+  <a class="cssbox_prev" href="#image5"></a>
+</div>
+ 
+<div class="cssbox">
+  <a id="image7" href="#image7"><img class="cssbox_thumb" src="fanart/006.jpg" height="225px">
+   <span class="cssbox_full"><img src="fanart/006.jpg"></span></a>
+  <a class="cssbox_close" href="#void"></a>
+  <a class="cssbox_next" href="#image8"></a>
+  <a class="cssbox_prev" href="#image6"></a>
+</div>
+ 
+<div class="cssbox">
+  <a id="image8" href="#image8"><img class="cssbox_thumb" src="fanart/007.jpg" height="225px">
+   <span class="cssbox_full"><img src="fanart/007.jpg"></span></a>
+  <a class="cssbox_close" href="#void"></a>
+  <a class="cssbox_next" href="#image9"></a>
+  <a class="cssbox_prev" href="#image7"></a>
+</div>
+ 
+<div class="cssbox">
+  <a id="image9" href="#image9"><img class="cssbox_thumb" src="fanart/008.jpg" height="225px">
+   <span class="cssbox_full"><img src="fanart/008.jpg"></span></a>
+  <a class="cssbox_close" href="#void"></a>
+  <a class="cssbox_prev" href="#image8"></a>
+</div>
+
+
+ 
+<h1 id="fma-heading">Fullmetal Alchemist Gallery</h1>
+
+<div class="cssbox">
+    <a id="pic1" href="#pic1"><img class="cssbox_thumb" src="fanart/fma01.jpg" height="225px">
+      <span class="cssbox_full"><img src="fanart/fma01.jpg"></span>
+    </a>
+    <a class="cssbox_close" href="#void"></a>
+    <a class="cssbox_next" href="#pic2"></a>
+</div>
+
+<div class="cssbox">
+  <a id="pic2" href="#pic2"><img class="cssbox_thumb" src="fanart/fma02.jpg" height="225px">
+   <span class="cssbox_full"><img src="fanart/fma02.jpg"></span></a>
+  <a class="cssbox_close" href="#void"></a>
+  <a class="cssbox_prev" href="#pic1"></a>
+</div>
+
+  </div>
+   
+   
     
-    
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-    <script src="index.js"></script>
-  </body>
+    <script src="js/fanart.js"></script>
+</body>
 </html>
