@@ -59,13 +59,18 @@ a:hover {
 }
 
 #aur1 {
-  padding: 2%; 
+ /* padding: 2%; */
   background-color: black;
-  border-radius: 0.5em;
+  border-radius: 0.6em;
 }
 
 #aur2 {
-  padding: 2%; 
+ /* padding: 2%; */
   background-color: black;
-  border-radius: 0.5em;
+  border-radius: 0.6em;
+}
+
+#back-btn {
+  position: absolute;
+  padding: 2%;  
 }
