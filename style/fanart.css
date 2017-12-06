@@ -41,16 +41,18 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: white;
+  color: gray;
 }
 
 .active {
-  border-bottom: solid 3px lime;
+  /* border-bottom: solid 3px greenyellow; */
+  color: palegreen;
   font-weight: bold;
 }
 
 .active:hover {
-  color: gray;
+  color: palegreen;
+  font-weight: bold;
 }
 
 #alvinnn-heading {
@@ -203,6 +205,7 @@ span.cssbox_full {
 
 #fma-heading {
   color: white;
+  font-size: 4em;
   text-shadow: 1px 1px black;
   font-family: "Passion One";
   margin: 100px 0 30px 0;

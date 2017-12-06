@@ -38,16 +38,18 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: white;
+  color: gray;
 }
 
 .active {
-  border-bottom: solid 3px lime;
+  /* border-bottom: solid 3px greenyellow; */
+  color: palegreen;
   font-weight: bold;
 }
 
 .active:hover {
-  color: gray;
+  color: palegreen;
+  font-weight: bold;
 }
 
 
