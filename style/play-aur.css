@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size:12px;
+  background-color:#f2ede1;
+  background-image: url('https://t7.rbxcdn.com/75a0176a17ec54327b418522497caf3b');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#ihf-logo {
+  width: 70px; 
+  float: left;
+  margin: -1% 1%;
+}
+
+
+ul {
+   text-align: right;
+   padding: 2% 0;
+}
+
+ul li {
+  font-family: "Quicksand";
+  display: inline;
+  padding: 0 3%;
+  font-size: 1.7em;
+  padding-bottom: 10px;  
+}
+
+
+a {
+  color: white;
+  
+}
+
+a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+.active {
+  /* border-bottom: solid 3px greenyellow; */
+  color: palegreen;
+  font-weight: bold;
+}
+
+.active:hover {
+  color: palegreen;
+  font-weight: bold;
+}
+
+.videos {
+  padding: 5%;
+  text-align: center;
+}
+
+#aur1 {
+  padding: 2%; 
+  background-color: black;
+  border-radius: 0.5em;
+}
+
+#aur2 {
+  padding: 2%; 
+  background-color: black;
+  border-radius: 0.5em;
+}
