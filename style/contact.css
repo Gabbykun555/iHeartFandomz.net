@@ -18,7 +18,37 @@ body{
   margin: -1% 1%;
 }
 
+ul {
+   text-align: right;
+   padding: 2% 0;
+}
 
+ul li {
+  display: inline;
+  padding: 0 3%;
+  font-size: 1.7em;
+  padding-bottom: 10px;  
+}
+
+
+a {
+  color: white;
+  
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  border-bottom: solid 3px lime;
+  font-weight: bold;
+}
+
+.active:hover {
+  color: gray;
+}
 
 
 

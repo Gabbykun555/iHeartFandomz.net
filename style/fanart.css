@@ -26,6 +26,7 @@ ul {
 }
 
 ul li {
+  font-family: "Quicksand";
   display: inline;
   padding: 0 3%;
   font-size: 1.7em;
@@ -44,7 +45,8 @@ a:hover {
 }
 
 .active {
-  border-bottom: solid 3px white;
+  border-bottom: solid 3px lime;
+  font-weight: bold;
 }
 
 .active:hover {
@@ -201,8 +203,18 @@ span.cssbox_full {
 
 #fma-heading {
   color: white;
+  text-shadow: 1px 1px black;
   font-family: "Passion One";
   margin: 100px 0 30px 0;
+}
+
+#alvinnn-heading {
+  text-shadow: 1px 1px black;
+}
+
+#fma {
+    color: darkred;
+    letter-spacing: 1px;
 }
 
 #border {
@@ -216,14 +228,18 @@ span.cssbox_full {
 
 
 
-#thumbnail1, #thumbnail3, #thumbnail5,  #thumbnail9, #thumbnail11 {
-    animation-duration: 1s;
+#thumbnail3, #thumbnail5, #thumbnail7, #thumbnail9  {
+    animation-duration: 2s;
 }
 
- #thumbnail4, #thumbnail6, #thumbnail8, #thumbnail10 {
+#thumbnail1, #thumbnail6, #thumbnail8, #thumbnail10 {
     animation-duration: 3s;
 }
 
-#thumbnail2, #thumbnail7 {
+ #thumbnail2, #thumbnail4, #thumbnail11 {
     animation-duration: 4s;
 }  
+
+.opaque {
+    opacity: 0.5;
+}

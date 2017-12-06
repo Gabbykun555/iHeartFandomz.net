@@ -125,11 +125,11 @@ ul {
 }
 
 ul li {
+  font-family: "Quicksand";
   display: inline;
   padding: 0 3%;
   font-size: 1.3em;
-  padding-bottom: 10px;
-    
+  padding-bottom: 10px;   
 }
 
 
@@ -144,7 +144,8 @@ a:hover {
 }
 
 .active {
-  border-bottom: solid 3px white;
+  border-bottom: solid 3px lime;
+  font-weight: bold;
 }
 
 .active:hover {
@@ -297,7 +298,8 @@ h3 {
     opacity: 1;
     width: 200px;
     height: 125px;
-    border-radius: 1em;
+   /* border-radius: 1em; */
+    border-radius: 5%;
 }
 
 #alvinnn-text {
