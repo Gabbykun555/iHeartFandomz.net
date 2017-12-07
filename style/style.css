@@ -515,7 +515,7 @@ h3 {
 
 @media (max-width: 450px){
 	#heading {
-  padding: 30% 0 8% 0; 
+  padding: 10% 0 8% 0; 
 }
 
 	h1 {
@@ -534,15 +534,25 @@ h3 {
 }
 
 	ul li {
-  font-size: 1em;
-}	
+  font-size: 1.2em;
+}
+    
+    #ihf-logo {
+  width: 80px;
+  display: block;
+  margin: 20px auto 0 auto;
+}
+    
+     ul {
+  text-align: center;     
+    }
 }
 
 
 
 @media (max-width: 400px){
 	#heading {
-  padding: 25% 0 8% 0; 
+  padding: 10% 0 8% 0; 
 }
 
 	h1 {
@@ -562,14 +572,18 @@ h3 {
 	#btn {
   margin: 10px;
 }
+    
+   
 
 	ul li {
-  float: left;
+ /* float: left; */
 }
 
 	#footnote {
   padding: 0 10px;
 }
+    
+    
 }
 
 
