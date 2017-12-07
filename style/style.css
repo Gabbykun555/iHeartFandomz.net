@@ -166,7 +166,7 @@ a:hover {
 #email-field {
   width: 250px;
   margin: 0 7px; 
-  padding: 0 0 1px 0;
+  padding: 0 0 5px 0;
 }
 
 #footnote {
@@ -348,3 +348,246 @@ h3 {
 .opaque {
     opacity: 1;
 }
+
+
+
+
+
+/* ************************ MEDIA QUERIES******************** */
+
+
+
+
+@media (max-width: 1050px){
+	#heading {
+  padding: 8% 0 8% 0; 
+}
+
+	#ihf-logo {
+  width: 60px; 
+  float: left;
+  margin: -1% 1%;
+}
+}
+
+
+@media (max-width: 950px){
+	#heading {
+  padding: 10% 0 8% 0; 
+}
+
+	h1 {
+  font-size: 4em;
+}
+
+	h3 {
+  font-size: 1.6em;
+}
+
+	.thumbnails {
+  margin: 0 30px;
+  height: 100px;
+  width: 100px;
+}
+}
+
+
+@media (max-width: 850px){
+	#heading {
+  padding: 12% 0 8% 0; 
+}
+}
+
+
+@media (max-width: 750px){
+	h1 {
+  font-size: 3.2em;
+}
+
+	h3 {
+  font-size: 1.4em;
+}
+}
+
+
+@media (max-width: 700px){
+	#heading {
+  padding: 14% 0 8% 0; 
+}
+}
+
+
+@media (max-width: 650px){
+	#heading {
+  padding: 16% 0 8% 0; 
+}
+
+	h1 {
+  font-size: 3em;
+}
+
+	h3 {
+  font-size: 1.4em;
+}
+	.thumbnails {
+  margin: 0 20px;
+  height: 80px;
+  width: 80px;
+}	
+}
+
+
+
+@media (max-width: 600px){
+	#heading {
+  padding: 16% 0 8% 0; 
+}
+
+	h1 {
+  font-size: 3em;
+}
+
+	h3 {
+  font-size: 1.4em;
+}
+	.thumbnails {
+  margin: 0 20px;
+  height: 85px;
+  width: 85px;
+}	
+}
+
+
+@media (max-width: 550px){
+	#heading {
+  padding: 16% 0 8% 0; 
+}
+
+	h1 {
+  font-size: 2.3em;
+}
+
+	h3 {
+  font-size: 1.3em;
+  margin-bottom: 4%;
+}
+	.thumbnails {
+  margin: 0 15px;
+  height: 75px;
+  width: 75px;
+}
+
+	ul li {
+  font-size: 1.2em;
+ 
+}	
+}
+
+
+@media (max-width: 500px){
+	#heading {
+  padding: 30% 0 8% 0; 
+}
+
+	h1 {
+  font-size: 2.3em;
+}
+
+	h3 {
+  font-size: 1.3em;
+  margin-bottom: 4%;
+}
+	.thumbnails {
+  margin: 0 20px;
+  height: 70px;
+  width: 70px;
+}
+
+	#footnote {
+  margin: 20px 0; 
+}
+
+	#ihf-logo { 
+  float: none;
+}	
+}
+
+
+@media (max-width: 450px){
+	#heading {
+  padding: 30% 0 8% 0; 
+}
+
+	h1 {
+  font-size: 2.4em;
+  letter-spacing: 0.2em;
+}
+
+	h3 {
+  font-size: 1.3em;
+  
+}
+	.thumbnails {
+  margin: 10px 8px;
+  height: 65px;
+  width: 65px;
+}
+
+	ul li {
+  font-size: 1em;
+}	
+}
+
+
+
+@media (max-width: 400px){
+	#heading {
+  padding: 25% 0 8% 0; 
+}
+
+	h1 {
+  font-size: 2.2em;
+  letter-spacing: 0.1em;
+}
+
+	h3 {
+  font-size: 1.3em;
+}
+	.thumbnails {
+  margin: 10px 8px;
+  height: 60px;
+  width: 60px;
+}
+
+	#btn {
+  margin: 10px;
+}
+
+	ul li {
+  float: left;
+}
+
+	#footnote {
+  padding: 0 10px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
