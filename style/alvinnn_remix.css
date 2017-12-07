@@ -115,3 +115,47 @@ h5 {
   margin-top: 10px;
   font-family: "Muli";
 }
+
+
+
+/* ********************************** MEDIA QUERIES *********************************/
+
+
+
+@media (max-width: 500px) {
+    #panel1-thumbnail, #panel2-thumbnail {
+        width: 275px;
+        height: 250px;
+    }
+    
+    #panel1, #panel2 {
+        width: 275px;
+    } 
+}
+
+
+@media (max-width: 450px) {
+    ul li {
+  font-size: 1.55em;
+}
+    
+    #ihf-logo {
+  width: 80px;
+  margin: 20px auto 0 auto;
+  float: none;
+}
+    
+     ul {
+  text-align: center;     
+    }
+}
+
+
+
+
+
+
+
+
+
+

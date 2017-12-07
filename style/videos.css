@@ -4,7 +4,9 @@
   padding: 0;
 }
 
-body{
+body, html{
+  width: 100%;
+  height: 100%;
   font-size:12px;
   background-color:#f2ede1;
   background-image: url('https://t7.rbxcdn.com/75a0176a17ec54327b418522497caf3b');
@@ -54,14 +56,11 @@ a:hover {
   font-weight: bold;
 }
 
+
 #aur-thumb {
   margin: 30px 30px;
   float: left;
-}
-
-#alvinnn-musicvids {
-  margin: 20px 30px;  
-}
+} 
 
 
 .vid-desc {
@@ -82,18 +81,123 @@ a:hover {
 h3 {
   color: red;
   font-family: "Poppins";
-  font-size: 3em;
+  font-size: 2.8em;
   font-weight: bold;
   padding: 85px 0;
 }
 
 .content-heading {
-    margin-bottom: auto;
     margin-top: auto;
+    margin-bottom: auto;
     text-align: center;
 }
 
 
+
+
+/* ********************************** MEDIA QUERIES *********************************/
+
+
+@media (max-width: 1300px) {
+    h3 {
+  font-size: 2.5em;
+}
+}
+
+
+@media (max-width: 1050px) {
+    h3 {
+  font-size: 2.2em;
+}
+}
+
+
+@media (max-width: 950px) {
+    h3 {
+  font-size: 2em;
+}
+}
+
+@media (max-width: 915px) {
+    h3 {
+  position: relative;
+  bottom: 15px;
+  right: 15px;
+}
+}
+
+
+@media (max-width: 850px) {
+    h3 {
+  font-size: 2em;
+  position: relative;
+  top: 65px;
+}
+}
+
+
+@media (max-width: 850px) {
+    h3 {
+  font-size: 1.8em;
+  padding: 10px 0;
+}
+
+}
+
+
+
+@media (max-width: 735px) {
+   h3 {
+        position: relative;
+        bottom: 25px;
+        font-size: 1.6em;
+    } 
+}
+
+
+@media (max-width: 550px) {
+    #aur-thumb {
+        text-align: center;
+    }
+    
+    .vid-desc {
+        width: 325px;
+    }
+}
+
+
+@media (max-width: 450px) {
+    ul li {
+  font-size: 1.55em;
+}
+    
+    #ihf-logo {
+  width: 80px;
+  margin: 20px auto 0 auto;
+  float: none;
+}
+    
+     ul {
+  text-align: center;     
+    }
+    
+    h3 {
+        position: relative;
+        bottom: 25px;
+        font-size: 1.5em;
+    }
+}
+
+
+@media (max-width: 400px) {
+    #aur-thumb {
+        text-align: center;
+    }
+    
+    .vid-desc {
+        width: 320px;
+    }
+}
 
 
 
