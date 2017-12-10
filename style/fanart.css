@@ -6,7 +6,9 @@
   padding: 0;
 }
 
-body{
+body, html{
+  width: 100%;
+  height: 100%;
   font-size:12px;
   background-color:#f2ede1;
   background-image: url('https://t7.rbxcdn.com/75a0176a17ec54327b418522497caf3b');
@@ -82,7 +84,7 @@ a:hover {
 .cssbox {
   display: inline-block;
   margin: 10px 10px;
-  
+  box-shadow: 1px 1px 2em black;
 }
 
 span.cssbox_full {
