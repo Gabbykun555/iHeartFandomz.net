@@ -56,7 +56,7 @@ a:hover {
 }
 
 .videos {
-  padding: 5%;
+  padding: 0;
   text-align: center;
 }
 
@@ -110,11 +110,24 @@ a:hover {
      ul {
   text-align: center;     
     }
-    
+ 
+    /*
     #aur1, #aur2 {
-        width: 100%;
+      /*  width: 100vh; 
         padding: 0;
         margin: 0;
+    }  */
+    
+    #aur1, #aur2 {
+        position: relative;
+        bottom: 80px;
+    }
+    
+    #back-btn {
+        width: 20px;
+        padding: 10px;
+        position: relative;
+        bottom: 180px;
     }
 }
 

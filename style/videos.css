@@ -1,4 +1,6 @@
 
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +14,8 @@ body, html{
   background-image: url('https://t7.rbxcdn.com/75a0176a17ec54327b418522497caf3b');
   background-size: cover;
   background-repeat: no-repeat;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 #ihf-logo {
@@ -56,42 +60,83 @@ a:hover {
   font-weight: bold;
 }
 
+.wrapper {
+  display: table; 
+  height: 100%;
+  width: 100%;
+  margin-top: 10%;
+}
 
-#aur-thumb {
-  margin: 30px 30px;
-  float: left;
+.content {
+  display: block;
+}
+
+.container-fostrap {
+  display: table-cell;
+  padding: 1em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.card {
+    display: block; 
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 dimgray; 
+    transition: box-shadow .25s; 
+}
+
+.card:hover {
+  box-shadow: 0 8px 17px 0 black;
+}
+
+.img-card {
+  width: 100%;
+  height:200px;
+  border-top-left-radius:2px;
+  border-top-right-radius:2px;
+  display:block;
+    overflow: hidden;
+}
+
+.img-card img{
+  width: 100%;
+  height: 200px;
+  object-fit:cover; 
+  transition: all .25s ease;
 } 
 
 
-.vid-desc {
- /* margin: 10%; */
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10%;
-  width: 60%;
-  height: 210px;
-  background-color: skyblue;
-  border-radius: 0.3em;
+.card-content {
+  padding:15px;
+  text-align:left;
 }
 
-.vid-desc:hover {
-  background-color:#d4e6f1;  
+.card-title {
+  margin-top:0px;
+  font-weight: 700;
+  font-size: 1.65em;
 }
 
-h3 {
-  color: red;
-  font-family: "Poppins";
-  font-size: 2.8em;
-  font-weight: bold;
-  padding: 85px 0;
+.card-title a {
+  color: #000;
+  text-decoration: none !important;
 }
 
-.content-heading {
-    margin-top: auto;
-    margin-bottom: auto;
-    text-align: center;
+
+.card-read-more {
+  border-top: 1px solid #D4D4D4;
 }
 
+
+.card-read-more a {
+  text-decoration: none !important;
+  padding:10px;
+  font-weight:600;
+  text-transform: uppercase
+}
 
 
 
@@ -200,8 +245,22 @@ h3 {
 }
 
 
-
-
+@media (min-width: 450px) {
+  h1.heading {
+    font-size: 3.55em;
+  }
+}
+@media (min-width: 760px) {
+  h1.heading {
+    font-size: 3.05em;
+  }
+}
+@media (min-width: 900px) {
+  h1.heading {
+    font-size: 3.25em;
+    margin: 0 0 0.3em;
+  }
+} 
 
 
 

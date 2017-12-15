@@ -14,7 +14,8 @@
     }
     
     to {
-        width: 125px;
+        width: 125px; 
+        height:125px;
         opacity: 0.3;
         -moz-opacity: 0.3;
         -webkit-opacity: 0.3;
