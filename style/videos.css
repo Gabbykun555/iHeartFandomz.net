@@ -60,13 +60,16 @@ a:hover {
 
 .wrapper {
   display: table; 
+  text-align: center;
+  min-width: 300px;
   height: 100%;
   width: 100%;
   margin-top: 10%;
 }
 
 .content {
-  display: block;
+  display: inline-table;
+  min-width: 300px;
 }
 
 .card {
@@ -77,6 +80,7 @@ a:hover {
     border-radius: 2px;
     box-shadow: 0 2px 5px 0 dimgray; 
     transition: box-shadow .25s; 
+    min-width: 300px;
 }
 
 .card:hover {
@@ -89,7 +93,7 @@ a:hover {
   border-top-left-radius:2px;
   border-top-right-radius:2px;
   display:block;
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .img-card img{
@@ -102,7 +106,7 @@ a:hover {
 
 .card-content {
   padding:15px;
-  text-align:left;
+  /*text-align:left;*/
 }
 
 .card-title {
@@ -193,13 +197,7 @@ h4 {
 
 
 @media (max-width: 550px) {
-    #aur-thumb {
-        text-align: center;
-    }
     
-    .vid-desc {
-        width: 325px;
-    }
 }
 
 
@@ -231,10 +229,6 @@ h4 {
 @media (max-width: 400px) {
     #aur-thumb {
         text-align: center;
-    }
-    
-    .vid-desc {
-        width: 320px;
     }
 }
 
