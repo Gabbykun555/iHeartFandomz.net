@@ -126,6 +126,12 @@ a:hover {
 }
 
 
+@media (max-width: 355px) {
+    ul li {
+  font-size: 1.4em;
+}
+}
+
 
 
 

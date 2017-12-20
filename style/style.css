@@ -571,10 +571,9 @@ h3 {
 }
 
 	#btn {
-  margin: 10px;
+  margin: 0px;
 }
-    
-   
+  
 
 	ul li {
  /* float: left; */
@@ -585,6 +584,16 @@ h3 {
 }
     
     
+}
+
+@media (max-width: 355px) {
+    ul li {
+  font-size: 1.1em;
+}
+    
+    #btn {
+  margin: 15px 0px 0px 0px;
+}
 }
 
 
