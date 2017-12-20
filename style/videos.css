@@ -68,7 +68,7 @@ a:hover {
 }
 
 .content {
-  display: inline-table;
+  display: inline-block;
   min-width: 300px;
 }
 
@@ -180,6 +180,31 @@ h4 {
 }
 
 
+@media (min-width: 575px) and (max-width: 800px) {
+      .card {
+  min-width: 350px;
+    }
+}
+
+
+
+@media (max-width: 800px) {
+  .content {
+  display: block;
+} 
+    
+  .wrapper {
+  text-align: center;
+    }
+    
+  .whole {
+  display: inline-block;
+    }
+    
+
+}
+
+
 
 @media (max-width: 735px) {
    h3 {
@@ -196,8 +221,11 @@ h4 {
 }
 
 
-@media (max-width: 550px) {
+@media (max-width: 575px) {
     
+    .card {
+        max-width: 350px;
+    }
 }
 
 
