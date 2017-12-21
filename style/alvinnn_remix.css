@@ -61,9 +61,18 @@ span {
     text-shadow: 1px 1px 1px 1em black;
 }
 
+#back-link {
+    margin: 0 0 0 20px;
+    font-size: 1.3em;
+}
+
+i {
+    margin: 0 2px 0 0;
+}
+
 /* #work */.video-gallery {
 	position: relative;
-	margin: 0 auto;
+	margin: 60px auto 0 auto;
 	/*padding: 1em 0 4em;*/
 	max-width: 1000px;
 	/*list-style: none;*/
@@ -83,8 +92,7 @@ span {
 	background: #000;
 	/*text-align: center;*/
 	cursor: pointer;
-  
-  background: #000;
+    background: #000;
 }
 
 /* #work */ .video-gallery .gallery-item img {
@@ -93,11 +101,10 @@ span {
 	/*min-height: 100%;
 	max-width: 100%;*/
 	opacity: 0.8;
-  
-  max-width: none;
+    max-width: none;
 	/*width: -webkit-calc(100% + 20px);
 	width: calc(100% + 20px);*/
-  width: 102%;
+    width: 102%;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: translate3d(-10px,0,0);
