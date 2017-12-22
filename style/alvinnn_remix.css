@@ -62,7 +62,7 @@ span {
 }
 
 .music-vid {
-    box-shadow: 1em 1em 1em 0.3em;
+    box-shadow: 1em 1em 1em 0.3em; 
 }
 
 #back-link {
@@ -91,19 +91,22 @@ i {
 	margin: 10px 1%;
 	min-width: 320px;
 	max-width: 580px; /* was 480px */
-	max-height: 360px;
+    max-height: 360px;
 	width: 48%;
 	background: #000;
 	/*text-align: center;*/
 	cursor: pointer;
-    background: #000;
+}
+
+   .gallery-item img {
+    height: 325px;
 }
 
 /* #work */ .video-gallery .gallery-item img {
 	position: relative;
 	display: block;
 	/*min-height: 100%;
-	max-width: 100%;*/
+	max-width: 100%; */
 	opacity: 0.8;
     max-width: none;
 	/*width: -webkit-calc(100% + 20px);
